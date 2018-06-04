@@ -41,6 +41,7 @@ Followed MVC architecture for loose coupling and to ease to add/remove any other
 
 ### Future Enhancment
 
+* Clientside validation
 * Can develope RestAPI for every operation/features to make ease for other developers so that they can consume our service to make there own application
 
 ## Acknowledgments

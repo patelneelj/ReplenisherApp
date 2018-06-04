@@ -2,10 +2,7 @@
  * 
  */
 
-/**
- * Class Description -
- * @author Mehul
- */
+
 package com.app.util;
 
 import java.util.HashMap;
