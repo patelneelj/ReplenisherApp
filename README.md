@@ -38,11 +38,21 @@ The following librarys are needed to run this application
 ### Design
 
 Followed MVC architecture for loose coupling and to ease to add/remove any other componenet based on requirement.
+Following are the pacakges I have used for this application.
+```
+1. Controller
+2. DAO: Data Access Object
+3. DTO: Data Transfer Object
+4. Model: POJO classes
+5. Service
+6. Util
+
+```
 
 ### Future Enhancment
 
 * Clientside validation
-* Can develope RestAPI for every operation/features to make ease for other developers so that they can consume our service to make there own application
+* Can develope RestAPI for every operation/features to make ease for other developers so that they can consume this service to make there own application
 
 ## Acknowledgments
 
