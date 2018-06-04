@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+    <definition name="base.definition"  
+        template="/resources/pages/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/resources/pages/header.jsp" />  
+        <put-attribute name="body" value="" />  
+    </definition> 
+    
+        <definition name="emp.definition"  
+        template="/resources/userpages/pages/emplayout.jsp">  
+        <put-attribute name="body" value="" />  
+    </definition>   
+    
+    
+    
+    
+    <!-- Emp Layout -->
+    <definition name="userdashboard" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/userdashboard.jsp" />  
+    </definition>  
+    
+     <definition name="mytasklist" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/mytasklist.jsp" />  
+    </definition>
+    
+    <definition name="mytasklistmgr" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/mytasklistmgr.jsp" />  
+    </definition>
+    
+    
+    
+    <definition name="addtask" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/addtask.jsp" />  
+    </definition>
+    
+    <definition name="taskdetails" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/taskdetails.jsp" />  
+    </definition>
+    
+    <definition name="mytasklistrank" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/mytasklistrank.jsp" />  
+    </definition>
+    
+     <definition name="myclosetasklist" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/myclosetasklist.jsp" />  
+    </definition>
+    
+    <definition name="myclosetasklistmgr" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/myclosetasklistmgr.jsp" />  
+    </definition>
+    
+  	  
+  
+    
+    
+    <definition name="response" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/response.jsp" />  
+    </definition>
+    
+    <definition name="login" extends="emp.definition">  
+        <put-attribute name="body" value="/resources/userpages/pages/login.jsp" />  
+    </definition>	 
+      
+</tiles-definitions>  
