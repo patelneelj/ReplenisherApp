@@ -1,8 +1,3 @@
-/*
- * 
- */
-
-
 package com.app.util;
 
 import java.util.HashMap;
