@@ -51,10 +51,7 @@ Following are the pacakges I have used for this application.
 
 ### Future Enhancment
 
-* Clientside validation
-* Can develope RestAPI for every operation/features to make ease for other developers so that they can consume this service to make there own application
-
-## Acknowledgments
-
-* Thanks to Wal-Mart Retail Technology director for giving me opportunity to prove my self
+* Clientside validation.
+* Can add more roles /restrictions per user as per need. 
+* Can develope RestAPI for every operation/features to make ease for other developers so that they can consume this service to make there own application.
 
